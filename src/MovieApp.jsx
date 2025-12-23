@@ -7,7 +7,7 @@ export const MovieApp = () => {
     const [movieLists, setMovieLists] = useState(null)
 
     const URL = 'https://api.themoviedb.org/3/search/movie'
-    const API = '07db2506287e20e1340c14549755e98c'
+    const API = 'YOUR_API_KEY'
     const LANGUAGE = 'es-ES'
 
     const handleInputChange = ({ target }) => {
